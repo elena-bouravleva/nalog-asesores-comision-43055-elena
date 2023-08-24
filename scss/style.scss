@@ -1,11 +1,11 @@
 
-@import "../utilities/_variables";
+@import "../scss/utilities/variables";
 @import "../utilities/_mixins";
 
 
 @import "../base/_reset";
 @import "../layout/_header";
-@import "../layout/_main-index";
+@import "../scss/layout/main-index";
 @import "../layout/_footer";
 
 
