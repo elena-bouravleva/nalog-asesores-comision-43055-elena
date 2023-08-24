@@ -1,0 +1,11 @@
+@mixin flex( $justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin grid($align, $justify){
+        display: grid;
+        align-self: $align;
+        justify-self: $justify;
+}

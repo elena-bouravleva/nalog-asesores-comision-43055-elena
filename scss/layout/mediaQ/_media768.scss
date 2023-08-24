@@ -1,0 +1,131 @@
+@media (max-width:768px){
+    .checkbtn{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+    .nav-menu ul{
+        display: block;
+        position: fixed;
+        top:70px;
+        left:-100%;
+        background: rgb(255, 80, 80);
+        width: 100%;
+        height: 100vh;
+        right: 0;
+    }
+    .nav-menu ul li{
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .nav-menu ul li:last-child{
+        background: none;
+        padding: 1rem;
+    }
+    #check:checked ~ ul{
+        left: 0;
+        transition: all .25s;
+    }
+
+    .contacto-imagen{
+        display:none;
+    }
+
+    .logo-header{
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .galeria{
+        grid-template-columns: 50%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "div1"
+        "div2"
+        "div3"
+        ;
+        .div1{
+            display: none;
+            grid-column: 1 / 2;
+            margin-left: 100px;
+        }
+        .div2{
+            grid-area: div2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .div3{
+            grid-area: div3;
+            grid-column: 1 / 2;
+        }
+        }
+        .galeria div img{
+            display: none;
+            }
+            .footer-container{
+                padding-top: 0px;
+            }
+    }
+
+@media (max-width:768px){
+        .imagen-inicio{
+            display:none;
+        }
+}
+
+@media (max-width:768px){
+    div .servicios1 .serv1 {
+     display: flex;
+     display: none;
+ }
+
+ div .servicios2 .serv2 {
+     display: flex;
+     display: none;
+ }
+
+ div .servicios3 .serv3 {
+     display: flex;
+     display: none;
+ }
+
+ div .servicios5 .serv5 {
+     display: flex;
+     display: none;
+ }
+}
+
+@media (max-width:768px){
+    .texto-inicio .imagen-inicio2{
+        display:none;
+    }
+
+    .texto-inicio .imagen-inicio{
+        display:none;
+    }
+}
+
+
+@media (max-width:768px){
+    
+    main picture img{
+        display: none;
+    }
+
+    .lista-clientes .fs-5{
+        font-size: 16px;
+    }
+
+    .lista-clientes .list-group{
+        font-size: 16px;
+        display: flex;
+    }
+}
