@@ -122,7 +122,9 @@
   width: 100%;
   grid-template-columns: repeat(3, 25%);
   grid-template-rows: repeat(3, 200px);
-  grid-template-areas: "div1 div1 div1" "div2 div2 div2" "div3 div3 div3";
+  grid-template-areas: "div1 div1 div1"
+ "div2 div2 div2"
+ "div3 div3 div3";
   justify-content: center;
   gap: 10px; }
   .galeria .div1 {
@@ -378,7 +380,9 @@ h3 {
   .galeria {
     grid-template-columns: 50%;
     grid-template-rows: auto;
-    grid-template-areas: "div1" "div2" "div3"; }
+    grid-template-areas: "div1"
+ "div2"
+ "div3"; }
     .galeria .div1 {
       display: grid;
       grid-column: 1 / 2;
@@ -439,7 +443,9 @@ h3 {
   .galeria {
     grid-template-columns: 50%;
     grid-template-rows: auto;
-    grid-template-areas: "div1" "div2" "div3"; }
+    grid-template-areas: "div1"
+ "div2"
+ "div3"; }
     .galeria .div1 {
       display: none;
       grid-column: 1 / 2;
@@ -493,7 +499,9 @@ h3 {
   .galeria {
     grid-template-columns: 50%;
     grid-template-rows: auto;
-    grid-template-areas: "div1" "div2" "div3"; }
+    grid-template-areas: "div1"
+ "div2"
+ "div3"; }
     .galeria .div1 img {
       display: none; }
     .galeria .div2 {
