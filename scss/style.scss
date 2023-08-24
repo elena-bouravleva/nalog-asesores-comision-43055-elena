@@ -1,17 +1,17 @@
 
-@import "./utilities/_variables";
-@import "./utilities/_mixins";
+@import "./utilities/_variables.scss";
+@import "./utilities/_mixins.scss";
 
 
-@import "./base/_reset";
-@import "./ayout/_header";
-@import "./layout/_main-index";
-@import "./layout/_footer";
+@import "./base/_reset.scss";
+@import "./ayout/_header.scss";
+@import "./layout/_main-index.scss";
+@import "./layout/_footer.scss";
 
 
-@import "./layout/mediaQ/_media1024";
-@import ".layout/mediaQ/_media768";
-@import ".layout/mediaQ/_media320";
+@import "./layout/mediaQ/_media1024.scss";
+@import ".layout/mediaQ/_media768.scss";
+@import ".layout/mediaQ/_media320.scss";
 
 
 
