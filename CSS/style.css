@@ -198,7 +198,7 @@ main picture img {
       justify-content: center; }
 
 /*Servicios*/
-.contenedor div {
+.contenedor div{
   justify-content: space-between; }
 
 .servicios1, .servicios2, .servicios3, .servicios4, .servicios5 {
@@ -213,13 +213,11 @@ main picture img {
 
 .servicios2 .textos {
   align-self: center;
-  margin-left: 50px;
-}
+  margin-left: 50px; }
 
 .servicios2 .serv2 {
   display: flex;
-  width: 400px;
-}
+  width: 400px; }
 
 .servicios3 .textos {
   align-self: center;
