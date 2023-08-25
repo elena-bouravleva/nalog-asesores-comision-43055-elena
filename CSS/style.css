@@ -213,7 +213,8 @@ main picture img {
 
 .servicios2 .textos {
   align-self: center;
-  margin-left: 50px; }
+  margin-left: 50px;
+}
 
 .servicios2 .serv2 {
   display: flex;
