@@ -1,6 +1,6 @@
 ###  Creado por Elena Bouravleva
 # Nalog Asesores 
-# Estudio imposivo contable
+# Estudio impositivo contable
 
 ### Breve descripción del proyecto
 
