@@ -129,3 +129,27 @@
         display: flex;
     }
 }
+
+@media (max-width:768px){
+    .estamos-trabajando{
+        display: flex;
+        margin-left: 200px;
+        margin-top: 40px;
+
+    }
+
+    .error-titulo{
+        display: flex;
+        margin-left: 180px;   
+        margin-top: 40px;  
+    }
+
+    .parrafo-404{
+        display: none;
+    }
+    .link-inicio{
+        display: flex;
+        margin-left: 250px;   
+        font-size: 50px;
+    }
+}

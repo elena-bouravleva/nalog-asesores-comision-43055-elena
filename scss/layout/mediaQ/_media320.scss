@@ -181,6 +181,27 @@
 
 }
 
+@media (max-width:320px){
+    .estamos-trabajando{
+        display: none;
+    }
+
+    .error-titulo{
+        display: flex;
+        margin-left: -60px;     
+    }
+
+    .parrafo-404{
+        display: none;
+    }
+    .link-inicio{
+        display: flex;
+        margin-left: 20px;   
+        font-size: medium;
+    }
+
+}
+
 
 
 
