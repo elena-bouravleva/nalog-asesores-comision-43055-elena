@@ -587,6 +587,19 @@ main div .error-pagina a {
     margin-left: 250px;
     font-size: 50px; } }
 
+@media (max-width: 425px) {
+  .estamos-trabajando {
+    display: none; }
+  .error-titulo {
+    display: flex;
+    margin-left: -60px; }
+  .parrafo-404 {
+    display: none; }
+  .link-inicio {
+    display: flex;
+    margin-left: 90px;
+    font-size: medium; } }
+
 @media (max-width: 375px) {
   .estamos-trabajando {
     display: none; }
@@ -597,7 +610,7 @@ main div .error-pagina a {
     display: none; }
   .link-inicio {
     display: flex;
-    margin-left: 20px;
+    margin-left: 90px;
     font-size: medium; } }
 
 @media (max-width: 320px) {
